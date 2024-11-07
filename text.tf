@@ -34,7 +34,7 @@
                              \                /                
                   ┌───────────\──────────────/───────────┐
                   │              Cloud Run               │
-                  │     (WordPress image with static     │- Instance serves as lightweight containeriz host
+                  │     (WordPress image with static     │- Instance serves as lightweight containerized host
                   │           Content Exports)           │
                   └──────────────────────────────────────┘
                                       │                       
