@@ -15,7 +15,7 @@ Key Features:
 
 *Summary*:
 	 Use of the load balancer to dynamically route traffic based on target regions.
-	 Serves as the host for CDN configuration to cache content for faster delivery and resilience in traffic spikes.
+	 Serves as the host for CDN configuration on cached content for faster delivery and resilience during traffic spikes.
 	 
 ---
 Storage buckets 
@@ -50,7 +50,7 @@ Managed Cloud SQL Database
 Key Features:
 - Private IP enabled
 - Access Credentials Stored in secret manager
-- 
+
 *Summary*:
 	 Standard Managed SQL Database to serve Word press configuration
 	 
@@ -63,4 +63,6 @@ Network Connectivity and Access tools
 - Private Access
 	 - Enables cloud storage requests on private backbone without public exposure using internal DNS `gsutil ls gs://my-bucket` 
 - Load balancer
-	 - Used to solidify infrastructure for high volume scenarios and globally routing traffic between 2 multi region bucket endpoints. 
+	 - Used to solidify infrastructure for high volume scenarios and globally routing traffic between 2 multi region bucket endpoints.
+- Secrete Manager
+         - Used to store access credentials for databse in a secure fashion, so hardcoded sensitive values are not exposed.
